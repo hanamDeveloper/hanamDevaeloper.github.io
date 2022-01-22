@@ -52,6 +52,8 @@ body.light {
     }
     &:hover {
       text-shadow: $light-hover-text-shadow;
+      transform: scale(1.2);
+      transition: transform 0.7s;
     }
   }
 
